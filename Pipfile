@@ -1,0 +1,32 @@
+[[source]]
+verify_ssl = true
+name = "pypi"
+url = "https://pypi.python.org/simple"
+
+[packages]
+arrow = "*"
+click = "*"
+toolz = "*"
+attrs = "*"
+treq = "*"
+click-default-group = "*"
+
+[requires]
+python_version = "3.6"
+
+[dev-packages]
+"flake8" = "*"
+bumpversion = "*"
+coverage = "*"
+hypothesis = "*"
+pylint = "*"
+pytest = "*"
+rope = "*"
+requests = "*"
+aiohttp = "*"
+jedi = "*"
+"autopep8" = "*"
+yapf = "*"
+parso = "*"
+twine = "*"
+vulture = "*"
